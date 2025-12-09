@@ -1,0 +1,132 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75px;
+}
+
+.header-content {
+    width: 100%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+
+
+
+nav ol li {
+    margin: 0 15px;
+}
+
+nav ol li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ol li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+    a:hover {
+        text-decoration: underline;
+    }
+
+     details {
+        background-color: #e9e9e9;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    summary {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-bottom: 5px;
+}
+    button:hover {
+        box-shadow: 0 0 15px black;
+    }
+#enlace{
+    color:#333;
+    text-decoration: none;
+}
+summary{
+    font-size: 18px;
+}
+li{
+    color: #333;
+    padding-right: 2px;
+}
+#copernic{
+    color: aliceblue;
+    text-decoration: none;
+}
+#copernic:hover{
+    text-decoration: underline;
+}
