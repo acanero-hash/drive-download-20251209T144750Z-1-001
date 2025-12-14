@@ -130,3 +130,9 @@ li{
 #copernic:hover{
     text-decoration: underline;
 }
+#foto_peru{
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 10px;
+}
